@@ -22,7 +22,7 @@ public class OpenAIService {
     private final Log log = LogFactory.getLog(OpenAIService.class);
 
     private final String prompt = """
-                Give me a good French recipe for tonight's dinner.
+                Give me a recipe for tonight's dinner.
                 """;
 
     @Value("${application.openai.url}")
